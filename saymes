@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function au() {
 newuser=$1
@@ -13,4 +13,5 @@ chmod -R 0644 /home/$newuser/.ssh/authorized_keys
 usermod -aG wheel $newuser || usermod -aG sudo $newuser
 }
 
-au aszakrevskiy "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQChZiwzsyzRZ/TwxvZn+EGKckjlADrkNAr/eDAhZNw0Mo9Uw3XCcl4mjOFYOCZaNpp8PNFztR+K32iMl3LWvIZMnTM6yGnW9uI1imOp068G2IcqalnBSgRp+smSg2yi+ePNzddqITgTO9nDl0NKss+9rcnWmWdh//KW1zAHIOkj69oer3X2b+U3mfZBmauCP13boNbVhle2q5DU2kGCk0ZShb33PZSNa1AGSmkl2qvp27sE4LxvfwV7awk0AIA+ACIYwdbjorCFM0pRbAaS5baOq2iSTh09oxlL64R+A7HkFfiTrRGOhuRHcRzpyRZ3h6e1vNtX6nAq5R2FWm18zu4f CORPSC+aszakrevskiy@DESKTOP-4ANS7TN"
+au saymes "ssh-rsa 
+AAAAB3NzaC1yc2EAAAADAQABAAABAQChZiwzsyzRZ/TwxvZn+EGKckjlADrkNAr/eDAhZNw0Mo9Uw3XCcl4mjOFYOCZaNpp8PNFztR+K32iMl3LWvIZMnTM6yGnW9uI1imOp068G2IcqalnBSgRp+smSg2yi+ePNzddqITgTO9nDl0NKss+9rcnWmWdh//KW1zAHIOkj69oer3X2b+U3mfZBmauCP13boNbVhle2q5DU2kGCk0ZShb33PZSNa1AGSmkl2qvp27sE4LxvfwV7awk0AIA+ACIYwdbjorCFM0pRbAaS5baOq2iSTh09oxlL64R+A7HkFfiTrRGOhuRHcRzpyRZ3h6e1vNtX6nAq5R2FWm18zu4f CORPSC+aszakrevskiy@DESKTOP-4ANS7TN"
